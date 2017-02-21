@@ -1,13 +1,11 @@
 {
   "name": "bathuyen/demo",
   "description": "PSX sample project",
-  "homepage": "http://phpsx.org",
   "license": "MIT",
   "authors": [
     {
-      "name": "Christoph Kappestein",
-      "email": "christoph.kappestein@gmail.com",
-      "homepage": "http://christoph.kappestein.com"
+      "name": "Ba Thuyen Le",
+      "email": "bathuyenle@gmail.com"
     }
   ],
   "require": {
@@ -21,11 +19,6 @@
   "autoload": {
     "psr-4": {
       "Sample\\": "src/"
-    }
-  },
-  "autoload-dev": {
-    "psr-4": {
-      "Sample\\Tests\\": "tests/"
     }
   }
 }
